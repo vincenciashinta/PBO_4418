@@ -13,7 +13,7 @@ public class gameenemy {
         this.witdh = witdh;
         this.height = height;
     }
-    void setPotition(int potitionx, int potitiony){
+    void setPotition(int potitionX, int potitionY){
         this.potitionX = potitionX;
         this.potitionY = potitionY;
     }

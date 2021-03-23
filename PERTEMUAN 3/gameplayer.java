@@ -7,15 +7,15 @@ public class gameplayer {
     public gameplayer(){
         
     }
-    public gameplayer(double witdh, double height, int potitionX, int potitionY){
+    public gameplayer(double witdh, double height, int potitionx, int potitiony){
     }
     void setDimension(double witdh, double height){
         this.witdh = witdh;
         this.height = height;
     }
-    void setPotition(int potitionX, int potitionY){
-        this.potitionX = potitionX;
-        this.potitionY = potitionY;
+    void setPotition(int potitionx, int potitiony){
+        this.potitionX = potitionx;
+        this.potitionY = potitiony;
     }
     double getwitdh(){
         return this.witdh;
