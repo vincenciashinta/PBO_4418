@@ -25,7 +25,7 @@ public class gameenvironment {
     public void addEnemy(gameenemy NewEnemy) {
         arrEnemy.add(NewEnemy);
     }
-    public void removeEnemy(gamenemy RemoveEnemy) {
+    public void removeEnemy(gameenemy RemoveEnemy) {
         arrEnemy.remove(RemoveEnemy);
     }
     public void getAllEnemies() {
