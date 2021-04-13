@@ -48,8 +48,8 @@ class Motorcycle extends Vehicle{
         this.licenseplate=lcplate;
     }
 
-    public int get_Sizeofengine(){
-        return Sizeofengine;
+    public int get_sizeofengine(){
+        return sizeofengine;
     }
 
     public String get_licenseplate(){
@@ -64,12 +64,3 @@ class Motorcycle extends Vehicle{
 
 }
 
-public class Vehicle{
-    public static void main(String[] args){
-        Bicycle testBicycle=new Bicycle();
-        testBicycle.color();
-        Motorcycle honda=new Motorcycle();
-        honda.get_speed(126);
-        
-    }
-}
